@@ -1,0 +1,10 @@
+npm-debug.log
+sql_trace.js
+logs
+temp
+config.json
+default-services.json
+node
+target
+etc
+pom.xml
