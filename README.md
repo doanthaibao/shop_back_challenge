@@ -77,6 +77,7 @@
    + method: http verb method
    + action: allow or deny
  - ACL process: handler by ACLHandler.js
+ - User without permission can't access to resources.
    
 ## 3. Data converter 
 - Configurtion file is saving at config/data_response_config.json
