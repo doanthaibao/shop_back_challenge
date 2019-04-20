@@ -2,9 +2,9 @@
 # I.Starting application
 ### Require: nodejs version 8.11.x or above 
 ### Running
-  - npm install 
-  - npm start 
-  - application starts at http://localhost:3000
+  `- npm install` <br />
+  `- npm start` <br />
+  `- application starts at http://localhost:3000`<br />
 # II.Overview of project
 ## 1. Authentication & RESTful APIs
   ### Signup
@@ -165,6 +165,6 @@
  ]
  ```
 # III. Testing
-- Using grunt to run the test:
-  npm test
+- Using grunt to run the test: <br />
+  `npm test`<br />
 - Limitation: Only writing some test cases: not enough 100% code coverage
