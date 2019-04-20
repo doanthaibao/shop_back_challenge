@@ -11,10 +11,10 @@
    - Assume that user has email begin with admin@.. will get admin role otherwise by default is user role
    - Password is encrypted
   ### Signin
-    - Assume that user has email begin with admin@... will get admin role otherwise by default is user role
-    - Password is encrypted
+  - Assume that user has email begin with admin@... will get admin role otherwise by default is user role
   ### Logout
    - Destroy current session
+   - Password is encrypted
   ### OTP
    - Encrypt and decrypt by 'crypto' default library of nodejs
    - OTP will expired after 2 hours 
