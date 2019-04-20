@@ -12,6 +12,7 @@
    - Password is encrypted
   ### Signin
   - Assume that user has email begin with admin@... will get admin role otherwise by default is user role
+  - There are 2 users in database: bao@email.com / 1234 (user permission) and admin@email.com / 1234 (admin permission)
   ### Logout
    - Destroy current session 
   ### OTP
