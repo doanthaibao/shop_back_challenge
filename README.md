@@ -4,7 +4,7 @@
 ### Running
   `- npm install` <br />
   `- npm start` <br />
-  `- application starts at http://localhost:3000`<br />
+   Application starts at http://localhost:3000
 # II.Overview of project
 ## 1. Authentication & RESTful APIs
   ### Signup
