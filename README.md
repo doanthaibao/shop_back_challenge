@@ -8,11 +8,11 @@
 # II.Overview of project
 ## 1. Authentication & RESTful APIs
   ### Signup
-    - Assume that user has email begin with admin@.. will get admin role otherwise by default is user role
-    - Password is encrypted 
+   - Assume that user has email begin with admin@.. will get admin role otherwise by default is user role
+   - Password is encrypted
   ### Signin
-    - Signin with email and password, if login successfully the latest will be updated
-    - UUID (OTP) will return to user after login successfully.
+    - Assume that user has email begin with admin@... will get admin role otherwise by default is user role
+    - Password is encrypted
   ### Logout
    - Destroy current session
   ### OTP
