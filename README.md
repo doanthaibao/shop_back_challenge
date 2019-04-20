@@ -165,6 +165,6 @@
  ]
  ```
 # III. Testing
-Using grunt to run the test:
- npm test
-Limitation: Only writing some test cases: not enough 100% code coverage
+- Using grunt to run the test:
+  npm test
+- Limitation: Only writing some test cases: not enough 100% code coverage
