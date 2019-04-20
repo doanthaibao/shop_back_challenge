@@ -1,0 +1,54 @@
+{
+    "mobile":
+    {
+        "user":
+        {
+            "email":
+            {
+                "value": "email",
+                "type": "string"
+            },
+            "name":
+            {
+                "value": "fullname",
+                "type": "string"
+            },
+            "latest":
+            {
+                "value": "latest",
+                "type": "number"
+            },
+            "createAt":
+            {
+                "value": "created",
+                "type": "number"
+            }
+        }
+
+    },
+    "web_browser":
+    {
+        "user":
+        {
+            "email":
+            {
+                "value": "login_id",
+                "type": "string"
+            },
+            "name": {
+            	"value": "full_name",
+            	"type": "string"
+            },
+            "latest": {
+            	"value":"latest_login",
+            	"type": "date-time",
+            	"format": "yyyy-mm-dd hh:MM:ss"
+            },
+            "createAt": {
+            	"value":"created_date",
+            	"type": "date-time",
+            	"format": "yyyy-mm-dd hh:MM:ss"
+            }
+        }
+    }
+}

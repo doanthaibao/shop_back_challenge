@@ -1,0 +1,43 @@
+[
+{
+    "role": "anonymous",
+    "permissions": [
+    {
+        "access_url": "/api/signin",
+        "method": ["POST"],
+        "action": "allow"
+    },
+    {
+        "access_url": "/api/signup",
+        "method": ["POST"],
+        "action": "allow"
+    }]
+},
+{
+    "role": "admin",
+    "permissions": [
+    {
+        "access_url": "*",
+        "method": "*",
+        "action": "allow"
+    }]
+},
+{
+    "role": "user",
+    "permissions": [
+    {
+        "access_url": "/api/user/search",
+        "method": ["POST", "GET", "PUT", "DELETE"],
+        "action": "deny"
+    },
+    {
+        "access_url": "/api/user/test",
+        "method": ["POST", "GET", "PUT", "DELETE"],
+        "action": "allow"
+    },
+    {
+        "access_url": "/api/logout",
+        "method": ["POST"],
+        "action": "allow"
+    }]
+}]
